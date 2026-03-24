@@ -40,6 +40,22 @@ The Gold layer contains a clean, analytics‑optimized star schema:
 ### Facts
 •fact_orders
 •fact_order_items
+### Key Features
+• Surrogate keys(customer_sk, product_sk)
+• Conformed dimensions
+• Clear grain definition
+## 🧩 Technologies Used
+• Databricks SQL
+• Delta Lake
+• Medallion Architecture
+• Star Schema Modeling
+• SQL Window Functions
+• Data Quality & Validation Frameworks
+## 🏁 Conclusion
+This project delivers a fully functional analytics engineering pipeline that transforms raw data into trusted, business‑ready insights. With a strong data‑quality foundation, a clean star schema, and a scalable architecture, the system is ready for the next phase: defining KPIs, building a semantic layer, and designing dashboards that unlock real analytical value.
+
+
+   
 
 
 
