@@ -35,6 +35,11 @@ CTEs identify duplicates using ROW_NUMBER() and quarantine all but the “best�
 ## ⭐ Gold Layer: Star Schema
 The Gold layer contains a clean, analytics‑optimized star schema:
 ### Dimensions
+• dim_customers
+• dim_products
+### Facts
+•fact_orders
+•fact_order_items
 
 
 
