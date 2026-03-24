@@ -26,11 +26,11 @@ Invalid rows are redirected into:
 • quarantine_orders
 • quarantine_order_items
 Each record includes:
-• 	Original row (JSON)
-• 	Rule name
-• 	Failure reason
-• 	Severity
-• 	Timestamp
+• Original row (JSON)
+• Rule name
+• Failure reason
+• Severity
+• Timestamp
 ## ✔ Deduplication logic
 CTEs identify duplicates using ROW_NUMBER() and quarantine all but the “best” record.
 ## ⭐ Gold Layer: Star Schema
