@@ -5,10 +5,10 @@ This project implements a complete, production‑grade data pipeline using the M
 The pipeline ingests raw e‑commerce data (customers, products, orders, order items), validates it through a robust DQ framework, and models it into a clean star schema suitable for BI dashboards and KPI reporting.
 # 🎯 Objective
 The objective of this project is to design and implement an end‑to‑end data pipeline that ensures data reliability, transparency, and analytical usability. This includes:
-• 	Enforcing data quality rules
-• 	Capturing invalid records in quarantine tables
-• 	Producing clean, deduplicated Silver‑layer entities
-• 	Modeling a Gold‑layer star schema for analytics
-• 	Preparing the foundation for KPIs, semantic modeling, and dashboards.
+• Enforcing data quality rules
+• Capturing invalid records in quarantine tables
+• Producing clean, deduplicated Silver‑layer entities
+• Modeling a Gold‑layer star schema for analytics
+• Preparing the foundation for KPIs, semantic modeling, and dashboards.
 # 🏗️ Architecture
 
