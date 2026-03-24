@@ -20,10 +20,16 @@ The Silver layer includes a comprehensive DQ system:
 Each table has explicit rules (e.g., no null IDs, valid dates, positive quantities).
 ## ✔ Quarantine tables
 Invalid rows are redirected into:
-quarantine_customers
-quarantine_products
-quarantine_orders
-quarantine_order_items
+• quarantine_customers
+• quarantine_products
+• quarantine_orders
+• quarantine_order_items
+Each record includes:
+• 	Original row (JSON)
+• 	Rule name
+• 	Failure reason
+• 	Severity
+• 	Timestamp
 
 
 
